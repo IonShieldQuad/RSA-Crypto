@@ -201,7 +201,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="8"/>
+              <text value="16"/>
             </properties>
           </component>
         </children>

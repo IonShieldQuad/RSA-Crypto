@@ -35,7 +35,7 @@ public class MainWindow {
     private JButton calculateNButton;
     private JButton calculateEDButton;
     
-    private static String TITLE = "Compressor-2";
+    private static String TITLE = "RSA";
     
     private int precision = 3;
     
@@ -132,7 +132,6 @@ public class MainWindow {
                 cr.setBitLength(bitLength);
                 
                 buf = Utils.bytesToChars(cr.encrypt(Utils.charsToBytes(buf)));
-                
                 
                 log.setText(new String(buf));
                 log2.append("File size: " + buf.length + System.lineSeparator());
